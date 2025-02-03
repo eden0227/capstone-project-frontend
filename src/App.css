@@ -1,0 +1,150 @@
+:root {
+    --black: #000000;
+    --charcoal: #3c3c3c;
+    --dark-gray: #141414;
+    --light-gray: #f0f0f0;
+    --mid-gray: #dcdcdc;
+    --white: #ffffff;
+}
+
+.authpage-custom-img {
+    display: none !important;
+}
+
+.authpage-custom-p {
+    font-family: Roboto, cursive;
+}
+
+.authpage-custom-input {
+    border: none;
+    border-bottom: 2px solid var(--charcoal);
+    border-radius: 0;
+    outline: none;
+    box-shadow: none;
+}
+
+.authpage-custom-input:focus {
+    border-bottom: 2px solid var(--charcoal);
+    outline: none;
+    box-shadow: none;
+}
+
+.homepage-custom-brand {
+    font-family: Iceberg, cursive;
+    text-shadow: 1px 1px 2px var(--dark-gray), -1px -1px 2px var(--dark-gray);
+}
+
+.homepage-custom-nav-content {
+    background-color: var(--dark-gray);
+    z-index: 100;
+}
+
+.homepage-custom-nav {
+    font-family: Roboto, cursive;
+    color: var(--white);
+    text-shadow: 1px 1px 2px var(--dark-gray);
+}
+
+.homepage-custom-button {
+    background: none;
+    border: none;
+    padding: 0;
+    color: var(--white);
+    font-size: 1.2rem;
+    font-weight: 300;
+    text-decoration: none;
+}
+
+.homepage-custom-button:hover,
+.homepage-custom-button:focus {
+    background: none;
+    outline: none;
+    color: var(--white);
+}
+
+.homepage-custom-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: var(--white);
+    text-shadow: 1px 1px 0.5px var(--charcoal);
+}
+
+.homepage-custom-title {
+    font-family: "Michroma, cursive";
+    font-size: 3.8rem;
+    z-index: 99;
+}
+
+.homepage-custom-subheading {
+    font-family: "Genos, cursive";
+    font-size: 1.8rem;
+    z-index: 99;
+}
+
+@media (max-width: 768px) {
+    .homepage-custom-title {
+        font-size: 3rem;
+    }
+
+    .homepage-custom-subheading {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .homepage-custom-title {
+        font-size: 2.5rem;
+    }
+
+    .homepage-custom-subheading {
+        font-size: 1.2rem;
+    }
+}
+
+.homepage-custom-info {
+    font-family: Roboto, cursive;
+    font-size: 2.5rem;
+    font-weight: 500;
+    background-color: var(--white);
+}
+
+.homepage-custom-footer {
+    background-color: var(--dark-gray);
+    color: var(--light-gray);
+}
+
+.aboutuspage-custom-info {
+    font-family: Roboto, cursive;
+    background-color: var(--white);
+    width: 60%;
+    margin: 50px auto;
+}
+
+.aboutuspage-custom-text {
+    max-width: 100%;
+}
+
+.servicespage-custom-card {
+    width: 100%;
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.2);
+    border: 1px solid var(--light-gray);
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+
+.servicespage-custom-card:hover {
+  box-shadow: 4px 8px 16px rgba(0, 0, 0, 0.4);
+  transform: translateY(-5px);
+}
+
+@media (min-width: 992px) {
+  .servicespage-custom-card {
+    width: 77%;
+  }
+}
+
+.chatbotmodal-custom-style {
+    border: 1px solid var(--mid-gray);
+}

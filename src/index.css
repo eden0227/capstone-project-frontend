@@ -1,0 +1,42 @@
+:root {
+    --black: #000000;
+    --charcoal: #3c3c3c;
+    --dark-gray: #141414;
+    --light-gray: #f0f0f0;
+    --mid-gray: #dcdcdc;
+    --white: #ffffff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body, #root {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+    width: 10px; /* Set width for vertical scrollbar */
+    height: 10px; /* Set height for horizontal scrollbar */
+}
+
+/* The track (background) */
+::-webkit-scrollbar-track {
+    background: var(--dark-gray); /* Light gray background */
+}
+
+/* The thumb (scroll handle) */
+::-webkit-scrollbar-thumb {
+    background: var(--charcoal); /* Gray color for the thumb */
+}
+
+/* Thumb hover */
+::-webkit-scrollbar-thumb:hover {
+    background: var(--charcoal); /* Darker gray when hovered */
+}

@@ -1,0 +1,14 @@
+{
+    "routes": [
+        {
+            "src": "/(.*)",
+            "dest": "https://capstone-project-backend-zeta.vercel.app/$1",
+            "status": 200
+        },
+        {
+            "src": "/[^.]+",
+            "dest": "/",
+            "status": 200
+        }
+    ]
+}
