@@ -7,8 +7,8 @@ Currently, two official plugins are available:
 - [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-# GitHub Repository
+# GitHub Repository + Live Website
 
-Frontend = https://github.com/eden0227/capstone-project-frontend
-Backend = https://github.com/eden0227/capstone-project-backend
-Live Website = https://capstone-project-frontend-three.vercel.app/
+- https://github.com/eden0227/capstone-project-frontend (Frontend)
+- https://github.com/eden0227/capstone-project-backend (Backend)
+- https://capstone-project-frontend-three.vercel.app/ (Live Website)
